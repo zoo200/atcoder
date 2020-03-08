@@ -1,3 +1,11 @@
+# 5
+# 1 5 7 10 21
+# 4
+# 2 4 17 8
+# no
+# no
+# yes
+# yes
 n = int(input())
 a = list(map(int,input().split()))[:n]
 q = int(input())
