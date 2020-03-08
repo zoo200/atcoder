@@ -1,11 +1,3 @@
-# 5
-# 1 5 7 10 21
-# 4
-# 2 4 17 8
-# no
-# no
-# yes
-# yes
 n = int(input())
 a = list(map(int,input().split()))[:n]
 q = int(input())
@@ -20,3 +12,12 @@ def solve(i,m):
 for x in m:
     if solve(0,x): print('yes')
     else: print('no')
+
+# 5
+# 1 5 7 10 21
+# 4
+# 2 4 17 8
+# no
+# no
+# yes
+# yes
