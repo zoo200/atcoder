@@ -2,8 +2,8 @@ def max_heapify(array, n, i):
   # ルート array[i]
   # とりあえずルートが最大
   largest = i
-  l  = 2 * i
-  r = 2*  i + 1
+  l  = 2 * i + 1
+  r = 2*  i + 2
   
   # 左側の子がルートより大きい場合
   if l < n and array[i] < array[l]:
