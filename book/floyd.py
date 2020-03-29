@@ -36,9 +36,7 @@ for i in range(v):
         print(" ",end="")
     print("")
 
-
-  # p 336
-
+# p 336
 # in
 # 4 6
 # 0 1 1
