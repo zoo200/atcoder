@@ -1,12 +1,13 @@
 import numpy as np
 import sys
+# dict でもok
+#from collections import defaultdict
 
 n = int(input())
 m = [[sys.maxsize] * n for _ in range(n) ]
+# m = defaultdict(dict)
 d = {}
 vm =  {}
-
-# print(m)
 
 # u → v への距離c を入れる
 for i in range(n):
@@ -35,9 +36,10 @@ while 1:
 
     for j in range(n):
         if(vm[j] != 1 and m[u][j] != sys.maxsize):
+        #if(vm[j] != 1 and m[u].get(j)):
+
             if(d[j] > d[u] + m[u][j]):
                 d[j] = d[u] + m[u][j]
-                vm[j] = 0
 
 for i in range(n):
     print(i,d[i])
