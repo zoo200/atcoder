@@ -18,3 +18,13 @@ n = int(input())
 m = [[0] * n for _ in range(n) ]
 # 3
 # [[0, 0, 0], [0, 0, 0], [0, 0, 0]]
+
+
+m = [list(map(int,input().split())) for _ in range(3)]
+print(m)
+in
+# 84 97 66
+# 79 89 11
+# 61 59 7
+# out
+# [[84, 97, 66], [79, 89, 11], [61, 59, 7]]
