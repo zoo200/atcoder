@@ -22,7 +22,7 @@ m = [[0] * n for _ in range(n) ]
 
 m = [list(map(int,input().split())) for _ in range(3)]
 print(m)
-in
+# in
 # 84 97 66
 # 79 89 11
 # 61 59 7
