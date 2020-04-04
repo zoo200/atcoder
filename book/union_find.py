@@ -3,7 +3,9 @@ n,q=map(int,input().split())
 # root番号保持
 p = list(range(n))
 # 階層保持
-rank =  list(range(n))
+rank =  [0] * n
+# ノード数
+node =  [1] *n
 
 def find_set(x):
     if(x != p[x]):
@@ -18,18 +20,17 @@ def link(x,y):
         p[y] =x
     else:
         p[x] = y
+        node[y] += node[x] 
         if rank[x] == rank[y]:
             rank[y] +=1
 
 def same(x,y):
     return find_set(x) == find_set(y)
 
-for i in range(n):
-    p[i] = i # この実装だと実際は不要。本に書いてあったから残
-    rank[i] =0
 
 print(p)
 print(rank)
+print(node)
 
 for i in range(q):
     t,a,b = map(int,input().split())
@@ -38,9 +39,11 @@ for i in range(q):
     elif(t==1):
         if same(a,b):print(1)
         else: print(0)
+    print()
+    print(p)
+    print(rank)
+    print(node)
 
-print(p)
-print(rank)
 
 # p.318
 # in
@@ -59,8 +62,6 @@ print(rank)
 # 1 3 0
 
 # out
-# [0, 1, 2, 3, 4]
-# [0, 0, 0, 0, 0]
 # 0
 # 0
 # 1
@@ -69,5 +70,3 @@ print(rank)
 # 0
 # 1
 # 1
-# [3, 4, 3, 3, 3]
-# [0, 0, 0, 2, 1]
