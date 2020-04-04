@@ -18,6 +18,7 @@ def unite(x,y):
 def link(x,y):
     if rank[x] > rank[y]:
         p[y] =x
+        node[x] += node[y] 
     else:
         p[x] = y
         node[y] += node[x] 
@@ -26,7 +27,6 @@ def link(x,y):
 
 def same(x,y):
     return find_set(x) == find_set(y)
-
 
 print(p)
 print(rank)
@@ -43,7 +43,6 @@ for i in range(q):
     print(p)
     print(rank)
     print(node)
-
 
 # p.318
 # in
