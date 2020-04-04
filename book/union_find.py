@@ -44,6 +44,7 @@ for i in range(q):
     print(rank)
     print(node)
 
+#ABC157_D_Friend_Suggestions の改良版のほうがいいかも
 # p.318
 # in
 # 5 12
