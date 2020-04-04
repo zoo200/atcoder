@@ -28,3 +28,15 @@ print(m)
 # 61 59 7
 # out
 # [[84, 97, 66], [79, 89, 11], [61, 59, 7]]
+
+
+
+j = [1,2,3,4]
+for i in j:
+    print(i,end=" ")
+print()
+print([i*2 for i in j])
+print(" ".join([str(i*2) for i in j]))
+# 1 2 3 4 
+# [2, 4, 6, 8]
+# 2 4 6 8
