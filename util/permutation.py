@@ -30,3 +30,19 @@ print(list(itertools.permutations(['a','a','c'],2)))
 print(list(itertools.combinations(['a','a','c'],2)))
 # 位置で判別してる模様
 # [('a', 'a'), ('a', 'c'), ('a', 'c')]
+
+
+import math
+
+def perm(x,y):
+    return math.factorial(x) // math.factorial(x - y)
+
+def comb(x,y):
+    return math.factorial(x) // (math.factorial(x - y) * math.factorial(y))
+
+print(math.factorial(5))
+print(perm(5,2))
+print(comb(5,2))
+# 120
+# 20
+# 10
