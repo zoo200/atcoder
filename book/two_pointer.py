@@ -8,16 +8,22 @@ sum=1
 right=0
 res=0
 
+# アタマの移動
 for k,v in enumerate(a):
 
+    # ケツの移動
     while right < n and sum * a[right] <= s:
         sum *= a[right]
         right+=1
 
+    # ケツ - アタマ　で距離求める
     res = max(res, right - k)
 
+    # アタマがケツに追いついた
     if right == k:
         right=+1
+        
+    # アタマすすめるのでその分、減らす（この問題では割る)
     else:
         sum //= v
     
