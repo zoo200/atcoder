@@ -8,10 +8,10 @@ sum=1
 right=0
 res=0
 
-# アタマの移動
+# アタマを進める
 for k,v in enumerate(a):
 
-    # ケツの移動
+    # ケツを進める
     while right < n and sum * a[right] <= s:
         sum *= a[right]
         right+=1
@@ -23,7 +23,7 @@ for k,v in enumerate(a):
     if right == k:
         right=+1
         
-    # アタマすすめるのでその分、減らす（この問題では割る)
+    # アタマ進めるのでその分、減らす（この問題では割る)
     else:
         sum //= v
     
