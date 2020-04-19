@@ -44,5 +44,5 @@ https://atcoder.jp/contests/abc156/tasks/abc156_d
 ### ベン図
 
 * [ABC131_C_ Anti-Division]（/ABC131_C_ Anti-Division.py)  
-https://atcoder.jp/contests/abc131/tasks/abc131_c
-& lcm , gcd , 包除原理
+https://atcoder.jp/contests/abc131/tasks/abc131_c  
+& lcm , gcd 
