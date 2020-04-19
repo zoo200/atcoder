@@ -40,6 +40,11 @@ def perm(x,y):
 def comb(x,y):
     return math.factorial(x) // (math.factorial(x - y) * math.factorial(y))
 
+# 最初から２通りしか選ばない場合は以下
+def comb(x):
+    return x * (x - 1) // 2
+
+
 print(math.factorial(5))
 print(perm(5,2))
 print(comb(5,2))
