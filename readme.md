@@ -43,6 +43,6 @@ https://atcoder.jp/contests/abc156/tasks/abc156_d
 
 ### ベン図
 
-* [ABC131_C_Anti-Division]（/ABC131_C_Anti-Division.py)  
+* [ABC131_C_Anti-Division](/ABC131_C_Anti-Division.py)  
 https://atcoder.jp/contests/abc131/tasks/abc131_c  
 & lcm , gcd 
