@@ -46,3 +46,9 @@ https://atcoder.jp/contests/abc156/tasks/abc156_d
 * [ABC131_C_Anti-Division](/ABC131_C_Anti-Division.py)  
 https://atcoder.jp/contests/abc131/tasks/abc131_c  
 & lcm , gcd 
+
+### その他
+
+##### 剰余の考え方(合同)
+* [ABC133_C_RemainderMinimization2019](/ABC133_C_RemainderMinimization2019.py)  
+https://atcoder.jp/contests/abc133/tasks/abc133_c
