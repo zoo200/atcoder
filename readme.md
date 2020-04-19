@@ -40,3 +40,9 @@ https://atcoder.jp/contests/abc147/tasks/abc147_c
 * [ABC156_D_Bouquet](/ABC156_D_Bouquet.py)  
 https://atcoder.jp/contests/abc156/tasks/abc156_d  
 & 余剰、フェルマーの小定理、逆元
+
+### ベン図
+
+* [ABC131_C_ Anti-Division]（/ABC131_C_ Anti-Division.py)  
+https://atcoder.jp/contests/abc131/tasks/abc131_c
+& lcm , gcd , 包除原理
