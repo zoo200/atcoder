@@ -15,3 +15,8 @@ def gcd(a, b):
 # a*b // gcd(a,b) だと a*b したときにオーバーフローする可能性があるため
 def lcm(a, b):
     return a // gcd(a, b) * b
+
+# 3つの数値の公約数は以下
+# https://note.nkmk.me/python-gcd-lcm/
+# でやったらTLEした
+gcd(gcd(x,y),z)
