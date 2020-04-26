@@ -15,6 +15,20 @@ for i in itertools.permutations(range(3)):
 # (2, 0, 1)
 # (2, 1, 0)
 
+### なんか連結したいとき ##
+n=3
+nn=[]
+ss=[]
+for i in range(1,n+1):
+      nn.append(i)
+print(nn)
+for i in itertools.permutations(nn):
+    print(i)
+    ss.append(''.join(map(str,list(i))))
+ 
+print(ss)
+######################
+
 print(list(itertools.permutations(range(3),2)))
 # [(0, 1), (0, 2), (1, 0), (1, 2), (2, 0), (2, 1)]
 
