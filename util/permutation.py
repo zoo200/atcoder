@@ -27,6 +27,14 @@ for i in itertools.permutations(nn):
     ss.append(''.join(map(str,list(i))))
  
 print(ss)
+# [1, 2, 3]
+# (1, 2, 3)
+# (1, 3, 2)
+# (2, 1, 3)
+# (2, 3, 1)
+# (3, 1, 2)
+# (3, 2, 1)
+# ['123', '132', '213', '231', '312', '321']
 ######################
 
 print(list(itertools.permutations(range(3),2)))
