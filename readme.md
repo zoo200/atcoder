@@ -7,6 +7,11 @@ https://abc007.contest.atcoder.jp/tasks/abc007_3
 * [AGC033_A_Darker_and_Darker](/AGC033_A_Darker_and_Darker.py)  
 https://atcoder.jp/contests/agc033/tasks/agc033_a
 
+### DP
+
+* [ABC129_C_TypicalStairs](/ABC129_C_TypicalStairs.py)  
+https://atcoder.jp/contests/abc129/tasks/abc129_c
+
 ### ２分探索
 
 * [ABC146_C_Buy_an_Integer](/ABC146_C_Buy_an_Integer.py)  
