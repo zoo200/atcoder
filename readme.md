@@ -16,7 +16,7 @@ https://atcoder.jp/contests/abc129/tasks/abc129_c
 
 * [ABC146_C_Buy_an_Integer](/ABC146_C_Buy_an_Integer.py)  
 https://atcoder.jp/contests/abc146/tasks/abc146_c  
-x以内の最大の数=left(ok)を返す
+x以下の最大の数=left(ok)を返す
 
 * [ARC037_C_Okumasu](/ARC037_C_Okumasu.py)  
 https://atcoder.jp/contests/arc037/tasks/arc037_c  
