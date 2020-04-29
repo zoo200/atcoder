@@ -1,5 +1,5 @@
 
-### BFS
+## BFS
 
 * [ABC007_C_BFS](/ABC007_C_BFS.py)  
 https://abc007.contest.atcoder.jp/tasks/abc007_3
@@ -7,12 +7,12 @@ https://abc007.contest.atcoder.jp/tasks/abc007_3
 * [AGC033_A_Darker_and_Darker](/AGC033_A_Darker_and_Darker.py)  
 https://atcoder.jp/contests/agc033/tasks/agc033_a
 
-### DP
+## DP
 
 * [ABC129_C_TypicalStairs](/ABC129_C_TypicalStairs.py)  
 https://atcoder.jp/contests/abc129/tasks/abc129_c
 
-### ２分探索
+## ２分探索
 
 * [ABC146_C_Buy_an_Integer](/ABC146_C_Buy_an_Integer.py)  
 https://atcoder.jp/contests/abc146/tasks/abc146_c
@@ -20,40 +20,58 @@ https://atcoder.jp/contests/abc146/tasks/abc146_c
 * [ARC037_C_Okumasu](/ARC037_C_Okumasu.py)  
 https://atcoder.jp/contests/arc037/tasks/arc037_c
 
-### UnionFind
+## UnionFind
 
 * [ABC157_D_Friend_Suggestions](/ABC157_D_Friend_Suggestions.py)  
 https://atcoder.jp/contests/abc157/tasks/abc157_d
 
-### 尺取方
+## 尺取方
 * [ABC032_C_TwoPointer](/ABC032_C_TwoPointer.py)  
 https://atcoder.jp/contests/abc032/tasks/abc032_c
 
-### bit演算
+## bit演算
 
 * [ABC081_B_Shift-only](/ABC081_B_Shift-only.py)  
 https://atcoder.jp/contests/abc081/tasks/abc081_b
 
-### bit全探索
+## bit全探索
 
 * [ABC147_C_HonestOrUnkind2](/ABC147_C_HonestOrUnkind2.py)  
 https://atcoder.jp/contests/abc147/tasks/abc147_c
 
 
-### 組み合わせ
+## 組み合わせ
 
 * [ABC156_D_Bouquet](/ABC156_D_Bouquet.py)  
 https://atcoder.jp/contests/abc156/tasks/abc156_d  
 & 余剰、フェルマーの小定理、逆元
 
-### ベン図
+## ベン図
 
 * [ABC131_C_Anti-Division](/ABC131_C_Anti-Division.py)  
 https://atcoder.jp/contests/abc131/tasks/abc131_c  
 & lcm , gcd 
 
-### その他
+## その他
 
-##### 剰余の考え方(合同)
+### 剰余の考え方(合同)
 * [ABC133_C_RemainderMinimization2019](/ABC133_C_RemainderMinimization2019.py)  
 https://atcoder.jp/contests/abc133/tasks/abc133_c
+
+
+### 逆を考える
+
+逆、双対、補集合などの考え方。
+
+* 例1:https://atcoder.jp/contests/abc140/tasks/abc140_c
+何かわからないAの最大（無限に考えられる可能性）よりも
+はっきりと与えられるBの最小（わかってる）から考えたほうがやりやすい。
+
+* 例2:https://atcoder.jp/contests/abc162/tasks/abc162_d
+条件の２つ目、＝じゃないってのは求めにくい。感覚的に。
+ので＝を求める。
+そして全体から＝を引いて≠を求める。
+
+* 参考:
+https://qiita.com/gnbrganchan/items/a3c3c69ba29707b62321
+
