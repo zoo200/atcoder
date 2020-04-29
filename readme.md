@@ -63,13 +63,12 @@ https://atcoder.jp/contests/abc133/tasks/abc133_c
 
 逆、双対、補集合などの考え方。
 
-* 例1:https://atcoder.jp/contests/abc140/tasks/abc140_c
-何かわからないAの最大（無限に考えられる可能性）よりも
+* 例1:https://atcoder.jp/contests/abc140/tasks/abc140_c  
+何かわからないAの最大（無限に考えられる可能性）よりも  
 はっきりと与えられるBの最小（わかってる）から考えたほうがやりやすい。
 
-* 例2:https://atcoder.jp/contests/abc162/tasks/abc162_d
-条件の２つ目、＝じゃないってのは求めにくい。感覚的に。
-ので＝を求める。
+* 例2:https://atcoder.jp/contests/abc162/tasks/abc162_d  
+条件の２つ目、＝じゃないってのは求めにくい。感覚的に。ので＝を求める。  
 そして全体から＝を引いて≠を求める。
 
 * 参考:
