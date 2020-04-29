@@ -15,10 +15,12 @@ https://atcoder.jp/contests/abc129/tasks/abc129_c
 ## ２分探索
 
 * [ABC146_C_Buy_an_Integer](/ABC146_C_Buy_an_Integer.py)  
-https://atcoder.jp/contests/abc146/tasks/abc146_c
+https://atcoder.jp/contests/abc146/tasks/abc146_c  
+x以内の最大の数=left(ok)を返す
 
 * [ARC037_C_Okumasu](/ARC037_C_Okumasu.py)  
-https://atcoder.jp/contests/arc037/tasks/arc037_c
+https://atcoder.jp/contests/arc037/tasks/arc037_c  
+x以上の最小の数=right(ok)を返す (x番目に位置する値 = xより小さいのはng)
 
 ## UnionFind
 
