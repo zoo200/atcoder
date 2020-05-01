@@ -29,7 +29,19 @@ print(m)
 # out
 # [[84, 97, 66], [79, 89, 11], [61, 59, 7]]
 
-
+n = int(input())
+d = [list(map(int,input().split())) for i in range(n)]
+d.sort(key=lambda x: x[1])
+print(d)
+# in
+# 5
+# 2 4
+# 1 9
+# 1 8
+# 4 9
+# 3 12
+# out dict じゃなくもsort使える
+# [[2, 4], [1, 8], [1, 9], [4, 9], [3, 12]]
 
 j = [1,2,3,4]
 for i in j:
