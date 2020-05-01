@@ -37,6 +37,8 @@ for i in j:
 print()
 print([i*2 for i in j])
 print(" ".join([str(i*2) for i in j]))
+print(" ".join(map(str,j)))
 # 1 2 3 4 
 # [2, 4, 6, 8]
 # 2 4 6 8
+# 1 2 3 4
