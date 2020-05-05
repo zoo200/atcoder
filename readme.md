@@ -42,8 +42,8 @@ https://atcoder.jp/contests/abc081/tasks/abc081_b
 https://atcoder.jp/contests/abc147/tasks/abc147_c
 
 ## XOR
-https://atcoder.jp/contests/abc121/tasks/abc121_d  
-https://atcoder.jp/contests/abc147/tasks/abc147_d  
+* https://atcoder.jp/contests/abc121/tasks/abc121_d  
+* https://atcoder.jp/contests/abc147/tasks/abc147_d  
 
 
 ## 組み合わせ
