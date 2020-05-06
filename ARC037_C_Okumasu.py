@@ -35,3 +35,29 @@ print(ok)
 #         ng = x
  
 # print(ok)
+
+
+### 以下のようにするとbisect_right 同等
+# def calc(x):
+#     l,r = -1,N*N
+#
+#     while r-l > 1:
+#         c = (r + l) // 2
+#         if cl[c] <= x: 
+#             l = c
+
+#         else:       
+#             r = c
+
+#     return l+1
+
+# while ok - ng > 1:
+#     x = (ok + ng) // 2
+#     # total = bisect_right(cl, x)
+#     total = calc(x)
+ 
+#     if total >= K:
+#         ok = x
+#     else:
+#         ng = x
+ 
