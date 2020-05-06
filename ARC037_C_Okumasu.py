@@ -45,17 +45,15 @@ print(ok)
 #         c = (r + l) // 2
 #         if cl[c] <= x: 
 #             l = c
-
 #         else:       
 #             r = c
-
 #     return l+1
-
+#
 # while ok - ng > 1:
 #     x = (ok + ng) // 2
 #     # total = bisect_right(cl, x)
 #     total = calc(x)
- 
+# 
 #     if total >= K:
 #         ok = x
 #     else:
