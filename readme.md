@@ -66,6 +66,11 @@ https://atcoder.jp/contests/abc156/tasks/abc156_d
 https://atcoder.jp/contests/abc131/tasks/abc131_c  
 & lcm , gcd 
 
+## 優先度付キュー
+
+* https://atcoder.jp/contests/abc141/submissions/12965269
+
+
 ## その他
 
 ### 剰余の考え方(合同)
