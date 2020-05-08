@@ -21,3 +21,22 @@ def get_prime(n):
 
 get_prime(int(input()))
 print(r)
+
+# ループ方式
+def factorization(n):
+    if n < 2:
+        return []
+
+    res = []
+
+    for i in range(2, int(n**0.5)+1):
+        while n % i == 0:
+            res.append(i)
+            n //= i
+
+    if n > 1:
+        res.append(n)
+
+    return res
+
+
