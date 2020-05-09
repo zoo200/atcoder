@@ -1,3 +1,8 @@
+import sys
+sys.setrecursionlimit(10000000)
+input=sys.stdin.readline      
+
+
 a = int(input())
 
 a,b = map(int,input().split())
