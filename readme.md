@@ -5,6 +5,11 @@ https://atc001.contest.atcoder.jp/tasks/dfs_a
 
 * [ABC146_D_ColoringEdgesonTree](ABC146_D_ColoringEdgesonTree.py)  
 https://atcoder.jp/contests/abc146/tasks/abc146_d  
+※ツリー構造はDFSで処理するものらしい
+
+* https://atcoder.jp/contests/abc138/submissions/12989520  
+※入力が多すぎてinput でTLEした  
+
 
 
 ## BFS
