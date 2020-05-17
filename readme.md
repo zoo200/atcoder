@@ -65,6 +65,16 @@ https://atcoder.jp/contests/abc147/tasks/abc147_c
 https://atcoder.jp/contests/abc156/tasks/abc156_d  
 & 余剰、フェルマーの小定理、逆元
 
+* https://atcoder.jp/contests/abc132/submissions/13274015  
+公式解説とはcmbの部分が違う。↑の以前のメソッドを利用した。  
+あと重複組合せの公式　ｎＨｒ＝n+r-1Cｒ　の考えを  
+f(x,y){x個の玉をyグループに分ける場合の数を返す} の引数に利用した。  
+{y種類の玉をx個選ぶと同義}　なので  
+y H x = x+y-1 C x  
+↓　どれか一つ必ず選ぶパターンはまずy種類からそれぞれ１個ずつ選択するのでx-y する  
+y H x-y  = x-1 C x-y  
+となる
+
 ## ベン図
 
 * [ABC131_C_Anti-Division](/ABC131_C_Anti-Division.py)  
