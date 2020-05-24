@@ -14,7 +14,6 @@ b=sorted(a.items())
 # b=sorted(a.items(), reverse=True) # 逆順
 # b=sorted(a.items(),key=lambda x:x[1])  # for Value
 # b=sorted(a.items(),key=lambda x:x[1], reverse=True) # for Value Re
-
 print(b)
 
 for i,j in b:
@@ -25,6 +24,13 @@ for i,j in b:
 # 4
 # 1
 # 0
+
+#---------------------
+# list sort
+#--------------------
+c=sorted(b,key=lambda x: x[0],reverse=True)
+# もしくは
+b.sort(key=lambda x: x[0],reverse=True)
 
 #---------------------
 # 文字列str を数値へ変換
