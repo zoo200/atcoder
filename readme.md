@@ -43,6 +43,8 @@ https://atcoder.jp/contests/abc157/tasks/abc157_d
 ## 尺取方
 * [ABC032_C_TwoPointer](/ABC032_C_TwoPointer.py)  
 https://atcoder.jp/contests/abc032/tasks/abc032_c  
+別解  
+https://atcoder.jp/contests/abc032/submissions/13602546
 
 * 下段のほうがわかりやすいかも  
 https://atcoder.jp/contests/abc130/submissions/13137345  
