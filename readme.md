@@ -64,6 +64,7 @@ https://atcoder.jp/contests/abc147/tasks/abc147_c
 
 ## XOR
 * https://atcoder.jp/contests/abc121/tasks/abc121_d  
+https://qiita.com/vain0x/items/9faf89f843f96d8c46cd  
 * https://atcoder.jp/contests/abc147/tasks/abc147_d  
 
 
