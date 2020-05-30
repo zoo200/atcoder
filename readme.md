@@ -60,7 +60,7 @@ https://atcoder.jp/contests/abc081/tasks/abc081_b
 * [ABC147_C_HonestOrUnkind2](/ABC147_C_HonestOrUnkind2.py)  
 https://atcoder.jp/contests/abc147/tasks/abc147_c  
 
-* https://atcoder.jp/contests/abc128/tasks/abc128_c  
+* https://atcoder.jp/contests/abc128/submissions/12830044  
 
 ## XOR
 * https://atcoder.jp/contests/abc121/tasks/abc121_d  
