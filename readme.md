@@ -84,6 +84,11 @@ y H x = x+y-1 C x
 y H x-y  = x-1 C x-y  
 となる
 
+* https://atcoder.jp/contests/abc156/submissions/13762865  
+ｎCr　nが小さければ（5,6乗?) こっちのほうがいい。  
+この問題は↑のcmbだとTLEする。  
+逆に↑の問題だとnが大きすぎてこっちの事前累乗計算のやり方だとTLEする。要使い分け。  
+
 ## ベン図
 
 * [ABC131_C_Anti-Division](/ABC131_C_Anti-Division.py)  
