@@ -122,3 +122,8 @@ https://atcoder.jp/contests/abc133/tasks/abc133_c
 * 参考:
 https://qiita.com/gnbrganchan/items/a3c3c69ba29707b62321
 
+
+### 浮動小数点
+
+* [ABC169_C_Multiplication3](/ABC169_C_Multiplication3.py)  
+https://atcoder.jp/contests/abc169/tasks/abc169_c  
