@@ -25,6 +25,12 @@ m = [[0] * n for _ in range(n) ]
 # [[0, 0, 0], [0, 0, 0], [0, 0, 0]]
 
 
+dp = [[[0] * 4 for _ in range(3)] for _ in range(2)]
+print(dp)
+# 3次元
+#[[[0, 0, 0, 0], [0, 0, 0, 0], [0, 0, 0, 0]], 
+# [[0, 0, 0, 0], [0, 0, 0, 0], [0, 0, 0, 0]]]
+
 m = [list(map(int,input().split())) for _ in range(3)]
 print(m)
 # in
