@@ -60,14 +60,15 @@ def factorization(n):
 
     return res
 
-# 10**16+7 で試したら再帰のほうが断然早い
-yoshikazu-imai@20190218-03 tmp % time python test.py
+# 10**16+7 で試したら再帰のほうが断然早い メモリ使用量も10.5 MiB くらいで変わらず  
+% time python test.py
 [53, 113, 277, 1117, 5396507]
 python test.py  0.04s user 0.04s system 95% cpu 0.080 total
-yoshikazu-imai@20190218-03 tmp % time python test.py
+% time python test.py
 [53, 113, 277, 1117, 5396507]
 python test.py  5.85s user 0.05s system 99% cpu 5.919 total
-yoshikazu-imai@20190218-03 tmp % 
+% 
+
 
 #---------------------
 # エラストテネスの篩
