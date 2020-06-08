@@ -34,6 +34,9 @@ https://atcoder.jp/contests/tdpc/tasks/tdpc_number
 * [ABC154_E_AlmostEverywhereZero](/ABC154_E_AlmostEverywhereZero.py)  
 https://atcoder.jp/contests/abc154/tasks/abc154_e  
 
+* [ABC154_E_AlmostEverywhereZero_2](/ABC154_E_AlmostEverywhereZero_2.py)  
+TDPC_Eを勉強してからこっちのほうがわかりやすい
+
 ## ２分探索
 
 * [ABC146_C_Buy_an_Integer](/ABC146_C_Buy_an_Integer.py)  
