@@ -56,7 +56,7 @@ https://atcoder.jp/contests/abc157/tasks/abc157_d
 * [ABC032_C_TwoPointer](/ABC032_C_TwoPointer.py)  
 https://atcoder.jp/contests/abc032/tasks/abc032_c  
 別解というか130やってそれっぽく  
-https://atcoder.jp/contests/abc032/submissions/13602546
+https://atcoder.jp/contests/abc032/submissions/15308114  
 
 * 下段のほうがわかりやすいかも  
 https://atcoder.jp/contests/abc130/submissions/13137345  
