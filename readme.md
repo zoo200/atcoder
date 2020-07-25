@@ -57,6 +57,9 @@ https://atcoder.jp/contests/abc157/tasks/abc157_d
 https://atcoder.jp/contests/abc032/tasks/abc032_c  
 別解というか130やってそれっぽく  
 https://atcoder.jp/contests/abc032/submissions/15308114  
+ループ判定時に計算しないと汚くなる。  
+入るときに判定&入って更新　と　入る前に更新　を使い分けよう  
+https://atcoder.jp/contests/abc032/submissions/15455093  
 
 * 下段のほうがわかりやすいかも  
 https://atcoder.jp/contests/abc130/submissions/13137345  
